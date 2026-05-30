@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DigitalVerse | Shubham Bhardwaj</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+line-height:1.6;
+}
+
+header{
+position:fixed;
+width:100%;
+top:0;
+background:rgba(15,23,42,0.95);
+backdrop-filter:blur(10px);
+padding:20px;
+z-index:1000;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+max-width:1200px;
+margin:auto;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+color:#38bdf8;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+background:linear-gradient(135deg,#0f172a,#1e293b);
+}
+
+.hero h1{
+font-size:4rem;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:1.3rem;
+color:#cbd5e1;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#38bdf8;
+color:black;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+
+section{
+padding:100px 20px;
+max-width:1200px;
+margin:auto;
+}
+
+.title{
+text-align:center;
+font-size:2.5rem;
+margin-bottom:50px;
+color:#38bdf8;
+}
+
+.card{
+background:#1e293b;
+padding:30px;
+border-radius:15px;
+margin-bottom:25px;
+box-shadow:0 0 20px rgba(0,0,0,.3);
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.feature{
+background:#334155;
+padding:20px;
+border-radius:12px;
+}
+
+footer{
+text-align:center;
+padding:40px;
+background:#020617;
+margin-top:50px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<nav>
+<div class="logo">DigitalVerse</div>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#book">Book</a></li>
+<li><a href="#features">Features</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</header>
+
+<section class="hero">
+
+<div>
+<h1>Shubham Bhardwaj</h1>
+
+<p>
+Student • Author • Creator • Motivator
+</p>
+
+<p style="margin-top:15px;">
+Transforming struggles into strength and helping students become unstoppable.
+</p>
+
+<a href="#about" class="btn">Explore My Journey</a>
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">About Me</h2>
+
+<div class="card">
+
+<p>
+
+Hello, I am <strong>Shubham Bhardwaj</strong>.
+
+I am a student, author and creator who believes that every challenge can become a stepping stone toward success.
+
+My mission is to inspire students who struggle silently with pressure, fear, loneliness, self doubt and uncertainty.
+
+Through my work, writing and projects, I want to help young people discover their true potential and build an unstoppable mindset.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="book">
+
+<h2 class="title">Alone But Unstoppable</h2>
+
+<div class="card">
+
+<h3>About The Book</h3>
+
+<br>
+
+<p>
+
+Alone But Unstoppable is a motivational book written for students and young dreamers.
+
+The book explores loneliness, failure, discipline, confidence, personal growth and resilience.
+
+It teaches readers how to transform pain into power and build a future based on courage, consistency and self belief.
+
+</p>
+
+<br>
+
+<h3>Key Lessons</h3>
+
+<ul>
+
+<li>Never Give Up</li>
+<li>Build Discipline</li>
+<li>Believe In Yourself</li>
+<li>Embrace Challenges</li>
+<li>Develop Confidence</li>
+<li>Create Your Own Future</li>
+
+</ul>
+
+</div>
+
+</section>
+
+<section id="features">
+
+<h2 class="title">Student Success Hub</h2>
+
+<div class="grid">
+
+<div class="feature">
+<h3>Study Tips</h3>
+<p>Powerful learning methods and study strategies.</p>
+</div>
+
+<div class="feature">
+<h3>Goal Setting</h3>
+<p>Build a roadmap toward your dream future.</p>
+</div>
+
+<div class="feature">
+<h3>Productivity</h3>
+<p>Improve focus and time management.</p>
+</div>
+
+<div class="feature">
+<h3>Motivation</h3>
+<p>Daily inspiration to keep moving forward.</p>
+</div>
+
+<div class="feature">
+<h3>Discipline</h3>
+<p>Create habits that produce long-term success.</p>
+</div>
+
+<div class="feature">
+<h3>Growth Mindset</h3>
+<p>Turn failures into opportunities.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="title">Contact</h2>
+
+<div class="card">
+
+<form>
+
+<input type="text" placeholder="Your Name"
+style="width:100%;padding:12px;margin-bottom:10px;">
+
+<input type="email" placeholder="Your Email"
+style="width:100%;padding:12px;margin-bottom:10px;">
+
+<textarea placeholder="Your Message"
+style="width:100%;padding:12px;height:150px;"></textarea>
+
+<br><br>
+
+<button type="submit"
+style="padding:12px 25px;background:#38bdf8;border:none;border-radius:8px;font-weight:bold;">
+Send Message
+</button>
+
+</form>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>DigitalVerse</h3>
+
+<p>
+Created by Shubham Bhardwaj
+</p>
+
+<p>
+Author of Alone But Unstoppable
+</p>
+
+</footer>
+
+</body>
+</html>
